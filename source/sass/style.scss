@@ -1,0 +1,48 @@
+@import "normalize.scss";
+@import "visually-hidden.scss";
+@import "container.scss";
+@import "overlay.scss";
+@import "blocks/header.scss";
+@import "blocks/title.scss";
+@import "blocks/callback.scss";
+@import "blocks/name.scss";
+@import "blocks/promo.scss";
+@import "blocks/promo-text.scss";
+@import "blocks/main.scss";
+@import "blocks/advantages.scss";
+@import "blocks/advantages-block.scss";
+@import "blocks/about.scss";
+@import "blocks/about-company.scss";
+@import "blocks/services.scss";
+@import "blocks/services-list.scss";
+@import "blocks/production.scss";
+@import "blocks/feedback.scss";
+@import "blocks/questions.scss";
+@import "blocks/form.scss";
+@import "blocks/feedback-form.scss";
+@import "blocks/footer.scss";
+@import "blocks/name-social.scss";
+@import "blocks/social.scss";
+@import "blocks/description.scss";
+@import "blocks/contents-contacts.scss";
+@import "blocks/contacts.scss";
+@import "blocks/contents.scss";
+@import "blocks/contacts-list";
+@import "blocks/rights.scss";
+@import "blocks/credits.scss";
+@import "blocks/modal-callback.scss";
+@import "blocks/modal-form.scss";
+@import "blocks/button.scss";
+@import "blocks/checkbox.scss";
+
+body {
+  margin: 0;
+  padding: 0;
+
+  font-family: "Roboto", "Helvetica", sans-serif;
+  font-size: 14px;
+
+  letter-spacing: 0;
+  line-height: 21px;
+  box-sizing: border-box;
+}
