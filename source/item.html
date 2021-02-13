@@ -7,9 +7,10 @@
     <meta name="format-detection" content="telephone=no">
     <link rel="stylesheet" type="text/css" href="css/style.min.css">
   </head>
+
   <body>
     <header class="header container">
-      <a href="index.html" area-label="перейти на главную страницу">
+      <a href="index.html">
         <img src="img/logo.png" width="132" height="116" alt="">
       </a>
 
@@ -24,7 +25,7 @@
         <p>пн-пт 8:00-17:00, перерыв 12:00-13:00, сб-вс: выходной</p>
       </div>
 
-      <a href="mailto:sale@semm.ru" area-label="написать e-mail">sale@semm.ru</a>
+      <a href="mailto:sale@semm.ru">sale@semm.ru</a>
 
       <div class="header__settings">
         <div class="header_lang">
@@ -38,66 +39,69 @@
       </div>
     </header>
 
-    <main>
-      <nav>
-        <ul>
-          <li>
-            <a href="">
-              <img src="img/dots_catalog.svg" width="20" height="5" alt="открыть каталог">
+    <main class="main">
+      <nav class="main__navigation navigation">
+        <ul class="navigation__list nav-list container">
+          <li class="nav-list__item">
+            <a href="catalog.html">
+              <img src="img/dots_catalog.svg" width="20" height="5" alt="">
               Каталог продукции
             </a>
           </li>
 
-          <li>
-            <a href="">Элеваторное оборудование</a>
+          <li class="nav-list__item">
+            <a>Элеваторное оборудование</a>
           </li>
 
-          <li>
-            <a href="">Котлы</a>
+          <li class="nav-list__item">
+            <a>Котлы</a>
           </li>
 
-          <li>
-            <a href="">Металлоконструкции</a>
+          <li class="nav-list__item">
+            <a>Металлоконструкции</a>
           </li>
 
-          <li>
-            <a href="">Услуги</a>
+          <li class="nav-list__item">
+            <a>Услуги</a>
           </li>
 
-          <li>
+          <li class="nav-list__item">
             <input type="text"><img src="img/search_icon.svg" width="20" height="20" alt="введите название">
           </li>
         </ul>
       </nav>
 
-      <ul>
-        <li>
-          <a href="">Главная</a>
+      <ul class="main__breadcrumps breadcrumps container">
+        <li class="breadcrumps__item">
+          <a href="index.html">Главная</a>
+        </li>
+
+        <li class="breadcrumps__item">→</li>
+
+        <li class="breadcrumps__item">
+          <a>Каталог продукции</a>
+        </li>
+
+        <li class="breadcrumps__item">
+          →
+        </li>
+
+        <li class="breadcrumps__item">
+          <a>Элеваторное оборудование</a>
         </li>
 
         <li>→</li>
 
         <li>
-          <a href="">Каталог продукции</a>
-        </li>
-
-        <li>→</li>
-
-        <li>
-          <a href="">Элеваторное оборудование</a>
-        </li>
-
-        <li>→</li>
-
-        <li>
-          <a href="">Автомобилеразгрузчик У15-УРАГ</a>
+          <a href="item.html">Автомобилеразгрузчик У15-УРАГ</a>
         </li>
       </ul>
 
+      <section class="main__goods goods container">
+
       <h1>Автомобилеразгрузчик У15-УРАГ</h1>
 
-      <section>
-        <div>
+        <div class="goods__album">
           <img src="img/urag-open.png" width="409" height="409" alt="">
 
           <div>
@@ -110,16 +114,24 @@
             <img src="img/urag-mini-4.png" width="85" height="85" alt="">
           </div>
 
-          <div>
-            <p>Разгрузчик автомобилей У15-УРАГ предназначен для разгрузки зерна через открытый задний борт из одиночных автомобилей и седельных тягачей с полуприцепами и разгрузки через открытый боковой борт одиночных автомобилей и прицепов без расцепки прицепов с автомобилями.</p>
+          <div class="goods__description">
+            <p>
+              Разгрузчик автомобилей У15-УРАГ предназначен для разгрузки зерна через открытый задний борт из одиночных автомобилей и седельных тягачей с полуприцепами и разгрузки через открытый боковой борт одиночных автомобилей и прицепов без расцепки прицепов с автомобилями.
+            </p>
 
-            <p>Разгрузчик применяется на предприятиях России и СНГ.</p>
+            <p>
+              Разгрузчик применяется на предприятиях России и СНГ.
+            </p>
 
-            <p>Разгрузчик автомобилей изготовлен в климатическом исполнении "У" категории 1 по ГОСТ 15150 - для работы на открытом воздухе в умеренном климате.</p>
+            <p>
+              Разгрузчик автомобилей изготовлен в климатическом исполнении "У" категории 1 по ГОСТ 15150 - для работы на открытом воздухе в умеренном климате.
+            </p>
 
-            <p>Цена от 580 000 руб.</p>
+            <p>
+              Цена от 580 000 руб.
+            </p>
 
-            <div>
+            <div class="goods__buy">
               <a href="">Заказать</a>
 
               <a href="">Скачать наш каталог</a>
@@ -128,8 +140,8 @@
         </div>
       </section>
 
-      <section>
-        <div class="tab">
+      <section class="main__characteristics characteristics container">
+        <div class="characteristics__tabs tab">
           <button class="tablinks" onclick="openTab(event, 'Технические характеристики')">Технические характеристики</button>
           <button class="tablinks" onclick="openTab(event, 'Принцип действия')">Принцип действия</button>
           <button class="tablinks" onclick="openTab(event, 'Преимущества')">Преимущества</button>
@@ -137,7 +149,7 @@
           <button class="tablinks" onclick="openTab(event, 'Видео')">Видео</button>
         </div>
 
-        <table>
+        <table class="characteristics__table">
           <tr>
             <th>№</th>
             <th>Наименование технической характеристики</th>
@@ -167,9 +179,9 @@
           </tr>
 
           <tr>
-            <td colspan="3">2</td>
+            <td rowspan="3">2</td>
             <td>Грузоподъемность, не более (в том числе):</td>
-            <td colspan="3">т</td>
+            <td rowspan="3">т</td>
             <td>55</td>
             <td>70</td>
             <td>76</td>
@@ -205,10 +217,10 @@
           </tr>
 
           <tr>
-            <td colspan="3">3</td>
+            <td rowspan="3">3</td>
             <td>Длина платформ установочная</td>
-            <td colspan="3">мм</td>
-            <td rowspan="8"></td>
+            <td rowspan="3">мм</td>
+            <td colspan="8"></td>
           </tr>
 
           <tr>
@@ -236,9 +248,9 @@
           </tr>
         </table>
 
-        <h2>Состав изделия и комплект поставки</h2>
+        <h3>Состав изделия и комплект поставки</h3>
 
-        <ul>
+        <ul class="characteristics__list">
           <li>платформа большая - 1 шт,</li>
           <li>платформа боковая - 1 шт,</li>
           <li>гидросистема - 1 шт,</li>
@@ -248,10 +260,12 @@
           <li>система управления - 1 шт.</li>
         </ul>
 
-        <p>Разгрузчик поставляется заказчику комплектно, разобранным на составные части. Отдельно комплектующие изделия, сборочные единицы и детали упаковываются в дощатые ящики. Металлоконструкции поставляются без упаковки.</p>
+        <p>
+          Разгрузчик поставляется заказчику комплектно, разобранным на составные части. Отдельно комплектующие изделия, сборочные единицы и детали упаковываются в дощатые ящики. Металлоконструкции поставляются без упаковки.
+        </p>
       </section>
 
-      <section>
+      <section class="main__contacts contacts">
         <h2>Свяжитесь с нами</h2>
 
         <form method="post">
@@ -283,79 +297,79 @@
 
           <ul class="footer__list footer-menu">
             <li>
-              <a area-label="перейти в раздел">О компании</a>
+              <a>О компании</a>
             </li>
 
             <li>
-              <a href="catalog.html" area-label="перейти в раздел">Каталог</a>
+              <a href="catalog.html">Каталог</a>
             </li>
 
             <li>
-              <a area-label="перейти в раздел">Услуги</a>
+              <a>Услуги</a>
             </li>
 
             <li>
-              <a area-label="перейти в раздел">Вакансии</a>
+              <a>Вакансии</a>
             </li>
 
             <li>
-              <a area-label="перейти в раздел">Новости</a>
+              <a>Новости</a>
             </li>
 
             <li>
-              <a area-label="перейти в раздел">Контакты</a>
+              <a>Контакты</a>
             </li>
           </ul>
 
           <ul class="footer__list footer-catalog footer-catalog--left">
             <li>
-              <a area-label="перейти в раздел">Элеваторное Оборудование</a>
+              <a>Элеваторное Оборудование</a>
             </li>
 
             <li>
-              <a area-label="перейти в раздел">Котлы</a>
+              <a>Котлы</a>
             </li>
 
             <li>
-              <a area-label="перейти в раздел">Металлоконструкции</a>
+              <a>Металлоконструкции</a>
             </li>
 
             <li>
-              <a area-label="перейти в раздел">Запчасти на элеваторное оборудование</a>
+              <a>Запчасти на элеваторное оборудование</a>
             </li>
 
             <li>
-              <a area-label="перейти в раздел">Трубы дымовые</a>
+              <a>Трубы дымовые</a>
             </li>
 
             <li>
-              <a area-label="перейти в раздел">Водонапорные башни</a>
+              <a>Водонапорные башни</a>
             </li>
           </ul>
 
           <ul class="footer__list footer-catalog footer-catalog--right">
             <li>
-              <a area-label="перейти в раздел">Котел-утилизатор</a>
+              <a>Котел-утилизатор</a>
             </li>
 
             <li>
-              <a area-label="перейти в раздел">Скреперный транспортёр для уборки навоза</a>
+              <a>Скреперный транспортёр для уборки навоза</a>
             </li>
 
             <li>
-              <a area-label="перейти в раздел">Планетарный бетоносмеситель</a>
+              <a>Планетарный бетоносмеситель</a>
             </li>
 
             <li>
-              <a area-label="перейти в раздел">Подъемники</a>
+              <a>Подъемники</a>
             </li>
 
             <li>
-              <a area-label="перейти в раздел">Тележки</a>
+              <a>Тележки</a>
             </li>
 
             <li>
-              <a area-label="перейти в раздел">Неликвиды</a>
+              <a>Неликвиды</a>
             </li>
           </ul>
         </div>

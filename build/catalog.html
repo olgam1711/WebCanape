@@ -8,15 +8,17 @@
     <link rel="stylesheet" type="text/css" href="css/style.min.css">
   </head>
   <body>
-    <header>
-      <img src="img/logo.png" width="132" height="116" alt="перейти на главную страницу">
+    <header class="header container">
+      <a href="index.html">
+        <img src="img/logo.png" width="132" height="116" alt="">
+      </a>
 
-      <div>
-        <ul>
-          <li><a href="">О компании</a></li>
-          <li><a href="">Вакансии</a></li>
-          <li><a href="">Новости</a></li>
-          <li><a href="">Контакты</a></li>
+      <div class="header__info">
+        <ul class="header__list header-menu">
+          <li class="header-menu__item"><a>О компании</a></li>
+          <li class="header-menu__item"><a>Вакансии</a></li>
+          <li class="header-menu__item"><a>Новости</a></li>
+          <li class="header-menu__item"><a>Контакты</a></li>
         </ul>
 
         <p>пн-пт 8:00-17:00, перерыв 12:00-13:00, сб-вс: выходной</p>
@@ -24,145 +26,153 @@
 
       <a href="mailto:sale@semm.ru">sale@semm.ru</a>
 
-      <div>
-        <div>
+      <div class="header__settings">
+        <div class="header_lang">
           <a>Ru</a>
-            <a href="">En</a>
+          <a>En</a>
 
-            <p>Выбор языка</p>
+          <p>Выбор языка</p>
         </div>
 
         <p>8 (86138) 6-34-03, 6-34-06</p>
       </div>
     </header>
 
-    <main>
-      <nav>
-        <ul>
-          <li>
-            <a href="">
-              <img src="img/dots_catalog.svg" width="20" height="5" alt="открыть каталог">
+    <main class="main">
+      <nav class="main__navigation navigation">
+        <ul class="navigation__list nav-list container">
+          <li class="nav-list__item">
+            <a href="catalog.html">
+              <img src="img/dots_catalog.svg" width="20" height="5" alt="">
               Каталог продукции
             </a>
           </li>
 
-          <li>
-            <a href="">Элеваторное оборудование</a>
+          <li class="nav-list__item">
+            <a>Элеваторное оборудование</a>
           </li>
 
-          <li>
-            <a href="">Котлы</a>
+          <li class="nav-list__item">
+            <a>Котлы</a>
           </li>
 
-          <li>
-            <a href="">Металлоконструкции</a>
+          <li class="nav-list__item">
+            <a>Металлоконструкции</a>
           </li>
 
-          <li>
-            <a href="">Услуги</a>
+          <li class="nav-list__item">
+            <a>Услуги</a>
           </li>
 
-          <li>
+          <li class="nav-list__item">
             <input type="text"><img src="img/search_icon.svg" width="20" height="20" alt="введите название">
           </li>
         </ul>
       </nav>
 
-      <ul>
-        <li>
-          <a href="">Главная</a>
+      <ul class="main__breadcrumps breadcrumps container">
+        <li class="breadcrumps__item">
+          <a href="index.html">Главная</a>
+        </li>
+
+        <li class="breadcrumps__item">→</li>
+
+        <li class="breadcrumps__item">
+          <a>Каталог продукции</a>
+        </li>
+
+        <li class="breadcrumps__item">
+          →
+        </li>
+
+        <li class="breadcrumps__item">
+          <a>Элеваторное оборудование</a>
         </li>
 
         <li>→</li>
 
-        <li>
-          <a href="">Каталог продукции</a>
-        </li>
-
-        <li>→</li>
-
-        <li>
-          <a href="">Элеваторное оборудование</a>
-        </li>
-
-        <li>→</li>
-
-        <li>
-          <a href="">Автомобилеразгрузчики</a>
+        <li class="breadcrumps__item">
+          <a href="catalog.html">Автомобилеразгрузчики</a>
         </li>
       </ul>
 
       <h1>Автомобилеразгрузчики</h1>
 
-      <div>
-        <section>
+      <ul class="main__catalog main-catalog container">
+        <li class="main-catalog__item catalog-item">
           <img src="img/catalog_1.png" width="271" height="271" alt="">
 
-          <div>
+          <div class="catalog-item__description">
             <h2>Автомобилеразгрузчик механический боковой У10-РМБ</h2>
 
-            <p>Разгрузчик автомобилей механический боковой РМБ, предназначен для разгрузки зерновых культур, зернопродуктов и других сыпучих материалов через открытый боковой борт автомобилей и автопоездов.</p>
+            <p>
+              Разгрузчик автомобилей механический боковой РМБ, предназначен для разгрузки зерновых культур, зернопродуктов и других сыпучих материалов через открытый боковой борт автомобилей и автопоездов.
+            </p>
 
-            <a href="">Подробнее</a>
+            <a>Подробнее</a>
           </div>
-        </section>
+        </li>
 
-        <section>
+        <li class="main-catalog__item catalog-item">
           <img src="img/catalog_2.png" width="271" height="271" alt="">
 
-          <div>
+          <div class="catalog-item__description">
             <h2>Автомобилеразгрузчик У15-УРАГ</h2>
 
-            <p>Разгрузчик автомобилей У15-УРАГ предназначен для разгрузки зерна через открытый задний борт из одиночных автомобилей и седельных тягачей с полуприцепами и разгрузки через открытый боковой борт одиночных автомобилей и прицепов без расцепки прицепов с автомобилями.</p>
+            <p>
+              Разгрузчик автомобилей У15-УРАГ предназначен для разгрузки зерна через открытый задний борт из одиночных автомобилей и седельных тягачей с полуприцепами и разгрузки через открытый боковой борт одиночных автомобилей и прицепов без расцепки прицепов с автомобилями.
+            </p>
 
-            <a href="">Подробнее</a>
+            <a href="item.html">Подробнее</a>
           </div>
-        </section>
+        </li>
 
-        <section>
+        <li class="main-catalog__item catalog-item">
           <img src="img/catalog_3.png" width="271" height="271" alt="">
 
-          <div>
+          <div class="catalog-item__description">
             <h2>Автомобилеразгрузчик гидравлический боковой У10-РГБ</h2>
 
-            <p>Разгрузчики автомобилей гидравлический боковой РГБ предназначены для разгрузки зерновых культур, зернопродуктов и других сыпучих материалов через открытый боковой борт автомобилей и автопоездов.</p>
+            <p>
+              Разгрузчики автомобилей гидравлический боковой РГБ предназначены для разгрузки зерновых культур, зернопродуктов и других сыпучих материалов через открытый боковой борт автомобилей и автопоездов.
+            </p>
 
-            <a href="">Подробнее</a>
+            <a>Подробнее</a>
           </div>
-        </section>
-      </div>
+        </li>
+      </ul>
 
-        <ul>
-          <li>
-            <a href="">Предыдущая</a>
-          </li>
+      <ul class="main__pagination pagination container">
+        <li class="pagination__item">
+          <a>Предыдущая</a>
+        </li>
 
-          <li>
-            <a href="">1</a>
-          </li>
+        <li class="pagination__item">
+          <a>1</a>
+        </li>
 
-          <li>
-            <a href="">2</a>
-          </li>
+        <li class="pagination__item pagination__item--active">
+          <a>2</a>
+        </li>
 
-          <li>
-            <a href="">3</a>
-          </li>
+        <li class="pagination__item">
+          <a>3</a>
+        </li>
 
-          <li>
-            <a href="">...</a>
-          </li>
+        <li class="pagination__item">
+          <a>...</a>
+        </li>
 
-          <li>
-            <a href="">6</a>
-          </li>
+        <li class="pagination__item">
+          <a>6</a>
+        </li>
 
-          <li>
-            <a href="">Следующая</a>
-          </li>
-        </ul>
+        <li class="pagination__item">
+          <a>Следующая</a>
+        </li>
+      </ul>
 
-      <section>
+      <section class="main__contacts contacts">
         <h2>Свяжитесь с нами</h2>
 
         <form method="post">
@@ -177,8 +187,7 @@
           <textarea name="text" cols="50" rows="10" placeholder="Ваш запрос"></textarea>
 
           <p>
-            <input id="" type="checkbox" name="slider" checked="">
-            <label for="">Нажимая на кнопку вы даете согласие на обработку персональных данных</label>
+            Нажимая на кнопку вы даете согласие на обработку персональных данных
           </p>
 
           <button type="submit">
@@ -188,82 +197,120 @@
       </section>
     </main>
 
-    <footer>
-      <div>
-        <img src="img/logo.png" width="132" height="116" alt="перейти на главную страницу">
-
-        <ul>
-          <li><a href="">О компании</a></li>
-
-          <li><a href="">Каталог</a></li>
-
-          <li><a href="">Услуги</a></li>
-
-          <li><a href="">Вакансии</a></li>
-
-          <li><a href="">Новости</a></li>
-
-          <li><a href="">Контакты</a></li>
-        </ul>
-
-        <ul>
-          <li><a href="">Элеваторное Оборудование</a></li>
-
-          <li><a href="">Котлы</a></li>
-
-          <li><a href="">Металлоконструкции</a></li>
-
-          <li><a href="">Запчасти на элеваторное оборудование</a></li>
-
-          <li><a href="">Трубы дымовые</a></li>
-
-          <li><a href="">Водонапорные башни</a></li>
-        </ul>
-
-        <ul>
-          <li><a href="">Котел-утилизатор</a></li>
-
-          <li><a href="">Скреперный транспортёр для уборки навоза</a></li>
-
-          <li><a href="">Планетарный бетоносмеситель</a></li>
-
-          <li><a href="">Подъемники</a></li>
-
-          <li><a href="">Тележки</a></li>
-
-          <li><a href="">Неликвиды</a></li>
-        </ul>
-      </div>
-
-      <div>
+    <footer class="footer">
+      <div class="footer__container container">
         <div>
-          <img src="img/location_icon.svg" width="20" height="28" alt="">
+          <img src="img/logo.png" width="132" height="116" alt="перейти на главную страницу">
 
-          <p>Адрес: 352382, Краснодарский край, г. Кропоткин, ул. Пушкина, 79</p>
+          <ul class="footer__list footer-menu">
+            <li>
+              <a>О компании</a>
+            </li>
+
+            <li>
+              <a href="catalog.html">Каталог</a>
+            </li>
+
+            <li>
+              <a>Услуги</a>
+            </li>
+
+            <li>
+              <a>Вакансии</a>
+            </li>
+
+            <li>
+              <a>Новости</a>
+            </li>
+
+            <li>
+              <a>Контакты</a>
+            </li>
+          </ul>
+
+          <ul class="footer__list footer-catalog footer-catalog--left">
+            <li>
+              <a>Элеваторное Оборудование</a>
+            </li>
+
+            <li>
+              <a>Котлы</a>
+            </li>
+
+            <li>
+              <a>Металлоконструкции</a>
+            </li>
+
+            <li>
+              <a>Запчасти на элеваторное оборудование</a>
+            </li>
+
+            <li>
+              <a>Трубы дымовые</a>
+            </li>
+
+            <li>
+              <a>Водонапорные башни</a>
+            </li>
+          </ul>
+
+          <ul class="footer__list footer-catalog footer-catalog--right">
+            <li>
+              <a>Котел-утилизатор</a>
+            </li>
+
+            <li>
+              <a>Скреперный транспортёр для уборки навоза</a>
+            </li>
+
+            <li>
+              <a>Планетарный бетоносмеситель</a>
+            </li>
+
+            <li>
+              <a>Подъемники</a>
+            </li>
+
+            <li>
+              <a>Тележки</a>
+            </li>
+
+            <li>
+              <a>Неликвиды</a>
+            </li>
+          </ul>
         </div>
 
-        <div>
-          <img src="img/phone_icon.svg" width="20" height="28" alt="">
+        <div class="footer__location">
+          <div>
+            <img src="img/location_icon.svg" width="20" height="28" alt="">
 
-          <p>
-            Тел./Факс: 8(86138) 6-34-03, 6-34-06
-            E-mail: sale@semm.ru
-          </p>
+            <p>Адрес: 352382, Краснодарский край, г. Кропоткин, ул. Пушкина, 79</p>
+          </div>
+
+          <div>
+            <img src="img/phone_icon.svg" width="20" height="28" alt="">
+
+            <p>
+              Тел./Факс: 8(86138) 6-34-03, 6-34-06
+              E-mail: sale@semm.ru
+            </p>
+          </div>
+
+          <div>
+            <img src="img/clock_icon.svg" width="20" height="28" alt="">
+
+            <p>Режим работы: пн-пт 8:00-17:00, перерыв 12:00-13:00, сб-вс: выходной</p>
+          </div>
         </div>
 
-        <div>
-          <img src="img/clock_icon.svg" width="20" height="28" alt="">
+        <div class="footer__rights">
+          <p>© АО "Элеватормельмаш" 2014 г.</p>
 
-          <p>Режим работы: пн-пт 8:00-17:00, перерыв 12:00-13:00, сб-вс: выходной</p>
+          <p>Разработка и маркетинг - WebCanape</p>
+
+          <p>Политика конфиденциальности</p>
         </div>
-      </div>
-
-      <div>
-        <p>© АО "Элеватормельмаш" 2014 г.</p>
-
-        <p>Разработка и маркетинг - WebCanape</p>
-
-        <p>Политика конфиденциальности</p>
       </div>
     </footer>
   </body>
