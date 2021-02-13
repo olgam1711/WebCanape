@@ -8,28 +8,30 @@
     <link rel="stylesheet" type="text/css" href="css/style.min.css">
   </head>
   <body>
-    <header>
-      <img src="img/logo.png" width="132" height="116" alt="перейти на главную страницу">
+    <header class="header container">
+      <a href="index.html" area-label="перейти на главную страницу">
+        <img src="img/logo.png" width="132" height="116" alt="">
+      </a>
 
-      <div>
-        <ul>
-          <li><a href="">О компании</a></li>
-          <li><a href="">Вакансии</a></li>
-          <li><a href="">Новости</a></li>
-          <li><a href="">Контакты</a></li>
+      <div class="header__info">
+        <ul class="header__list header-menu">
+          <li class="header-menu__item"><a>О компании</a></li>
+          <li class="header-menu__item"><a>Вакансии</a></li>
+          <li class="header-menu__item"><a>Новости</a></li>
+          <li class="header-menu__item"><a>Контакты</a></li>
         </ul>
 
         <p>пн-пт 8:00-17:00, перерыв 12:00-13:00, сб-вс: выходной</p>
       </div>
 
-      <a href="mailto:sale@semm.ru">sale@semm.ru</a>
+      <a href="mailto:sale@semm.ru" area-label="написать e-mail">sale@semm.ru</a>
 
-      <div>
-        <div>
+      <div class="header__settings">
+        <div class="header_lang">
           <a>Ru</a>
-            <a href="">En</a>
+          <a>En</a>
 
-            <p>Выбор языка</p>
+          <p>Выбор языка</p>
         </div>
 
         <p>8 (86138) 6-34-03, 6-34-06</p>
@@ -177,8 +179,7 @@
           <textarea name="text" cols="50" rows="10" placeholder="Ваш запрос"></textarea>
 
           <p>
-            <input id="" type="checkbox" name="slider" checked>
-            <label for="">Нажимая на кнопку вы даете согласие на обработку персональных данных</label>
+            Нажимая на кнопку вы даете согласие на обработку персональных данных
           </p>
 
           <button type="submit">
@@ -188,82 +189,120 @@
       </section>
     </main>
 
-    <footer>
-      <div>
-        <img src="img/logo.png" width="132" height="116" alt="перейти на главную страницу">
-
-        <ul>
-          <li><a href="">О компании</a></li>
-
-          <li><a href="">Каталог</a></li>
-
-          <li><a href="">Услуги</a></li>
-
-          <li><a href="">Вакансии</a></li>
-
-          <li><a href="">Новости</a></li>
-
-          <li><a href="">Контакты</a></li>
-        </ul>
-
-        <ul>
-          <li><a href="">Элеваторное Оборудование</a></li>
-
-          <li><a href="">Котлы</a></li>
-
-          <li><a href="">Металлоконструкции</a></li>
-
-          <li><a href="">Запчасти на элеваторное оборудование</a></li>
-
-          <li><a href="">Трубы дымовые</a></li>
-
-          <li><a href="">Водонапорные башни</a></li>
-        </ul>
-
-        <ul>
-          <li><a href="">Котел-утилизатор</a></li>
-
-          <li><a href="">Скреперный транспортёр для уборки навоза</a></li>
-
-          <li><a href="">Планетарный бетоносмеситель</a></li>
-
-          <li><a href="">Подъемники</a></li>
-
-          <li><a href="">Тележки</a></li>
-
-          <li><a href="">Неликвиды</a></li>
-        </ul>
-      </div>
-
-      <div>
+    <footer class="footer">
+      <div class="footer__container container">
         <div>
-          <img src="img/location_icon.svg" width="20" height="28" alt="">
+          <img src="img/logo.png" width="132" height="116" alt="перейти на главную страницу">
 
-          <p>Адрес: 352382, Краснодарский край, г. Кропоткин, ул. Пушкина, 79</p>
+          <ul class="footer__list footer-menu">
+            <li>
+              <a area-label="перейти в раздел">О компании</a>
+            </li>
+
+            <li>
+              <a href="catalog.html" area-label="перейти в раздел">Каталог</a>
+            </li>
+
+            <li>
+              <a area-label="перейти в раздел">Услуги</a>
+            </li>
+
+            <li>
+              <a area-label="перейти в раздел">Вакансии</a>
+            </li>
+
+            <li>
+              <a area-label="перейти в раздел">Новости</a>
+            </li>
+
+            <li>
+              <a area-label="перейти в раздел">Контакты</a>
+            </li>
+          </ul>
+
+          <ul class="footer__list footer-catalog footer-catalog--left">
+            <li>
+              <a area-label="перейти в раздел">Элеваторное Оборудование</a>
+            </li>
+
+            <li>
+              <a area-label="перейти в раздел">Котлы</a>
+            </li>
+
+            <li>
+              <a area-label="перейти в раздел">Металлоконструкции</a>
+            </li>
+
+            <li>
+              <a area-label="перейти в раздел">Запчасти на элеваторное оборудование</a>
+            </li>
+
+            <li>
+              <a area-label="перейти в раздел">Трубы дымовые</a>
+            </li>
+
+            <li>
+              <a area-label="перейти в раздел">Водонапорные башни</a>
+            </li>
+          </ul>
+
+          <ul class="footer__list footer-catalog footer-catalog--right">
+            <li>
+              <a area-label="перейти в раздел">Котел-утилизатор</a>
+            </li>
+
+            <li>
+              <a area-label="перейти в раздел">Скреперный транспортёр для уборки навоза</a>
+            </li>
+
+            <li>
+              <a area-label="перейти в раздел">Планетарный бетоносмеситель</a>
+            </li>
+
+            <li>
+              <a area-label="перейти в раздел">Подъемники</a>
+            </li>
+
+            <li>
+              <a area-label="перейти в раздел">Тележки</a>
+            </li>
+
+            <li>
+              <a area-label="перейти в раздел">Неликвиды</a>
+            </li>
+          </ul>
         </div>
 
-        <div>
-          <img src="img/phone_icon.svg" width="20" height="28" alt="">
+        <div class="footer__location">
+          <div>
+            <img src="img/location_icon.svg" width="20" height="28" alt="">
 
-          <p>
-            Тел./Факс: 8(86138) 6-34-03, 6-34-06
-            E-mail: sale@semm.ru
-          </p>
+            <p>Адрес: 352382, Краснодарский край, г. Кропоткин, ул. Пушкина, 79</p>
+          </div>
+
+          <div>
+            <img src="img/phone_icon.svg" width="20" height="28" alt="">
+
+            <p>
+              Тел./Факс: 8(86138) 6-34-03, 6-34-06
+              E-mail: sale@semm.ru
+            </p>
+          </div>
+
+          <div>
+            <img src="img/clock_icon.svg" width="20" height="28" alt="">
+
+            <p>Режим работы: пн-пт 8:00-17:00, перерыв 12:00-13:00, сб-вс: выходной</p>
+          </div>
         </div>
 
-        <div>
-          <img src="img/clock_icon.svg" width="20" height="28" alt="">
+        <div class="footer__rights">
+          <p>© АО "Элеватормельмаш" 2014 г.</p>
 
-          <p>Режим работы: пн-пт 8:00-17:00, перерыв 12:00-13:00, сб-вс: выходной</p>
+          <p>Разработка и маркетинг - WebCanape</p>
+
+          <p>Политика конфиденциальности</p>
         </div>
-      </div>
-
-      <div>
-        <p>© АО "Элеватормельмаш" 2014 г.</p>
-
-        <p>Разработка и маркетинг - WebCanape</p>
-
-        <p>Политика конфиденциальности</p>
       </div>
     </footer>
   </body>
