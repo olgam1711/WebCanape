@@ -25,14 +25,17 @@
         <p>пн-пт 8:00-17:00, перерыв 12:00-13:00, сб-вс: выходной</p>
       </div>
 
-      <a href="mailto:sale@semm.ru">sale@semm.ru</a>
+      <a class="header__green" href="mailto:sale@semm.ru">sale@semm.ru</a>
 
       <div class="header__settings">
-        <div class="header_lang">
+        <div class="header__lang">
           <a>Ru</a>
-          <a>En</a>
+
+          <a class="header__green">En</a>
 
           <p>Выбор языка</p>
+
+          <img src="img/menu-down.svg" width="20" height="20" alt="открыть меню выбора языка">
         </div>
 
         <p>8 (86138) 6-34-03, 6-34-06</p>
@@ -66,7 +69,8 @@
           </li>
 
           <li class="nav-list__item">
-            <input type="text"><img src="img/search_icon.svg" width="20" height="20" alt="введите название">
+            <input class="visually-hidden" type="text">
+            <img src="img/search_icon.svg" width="20" height="20" alt="введите название">
           </li>
         </ul>
       </nav>
@@ -92,7 +96,7 @@
 
         <li>→</li>
 
-        <li class="breadcrumps__item">
+        <li class="breadcrumps__item breadcrumps__item--active">
           <a href="catalog.html">Автомобилеразгрузчики</a>
         </li>
       </ul>
@@ -185,7 +189,7 @@
             <input type="email" name="mail" placeholder="E-mail">
           </div>
 
-          <textarea name="text" cols="50" rows="10" placeholder="Ваш запрос"></textarea>
+          <textarea name="text" cols="85" rows="10" placeholder="Ваш запрос"></textarea>
 
           <p>
             Нажимая на кнопку вы даете согласие на обработку персональных данных
@@ -200,7 +204,7 @@
 
     <footer class="footer">
       <div class="footer__container container">
-        <div>
+        <div class="footer__menu footer-menu">
           <img src="img/logo.png" width="132" height="116" alt="перейти на главную страницу">
 
           <ul class="footer__list footer-menu">

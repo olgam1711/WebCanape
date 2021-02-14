@@ -1,0 +1,18 @@
+.navigation {
+  background-color: #7f9d64;
+}
+
+.navigation--index {
+  background-color: #ffffff;
+}
+
+.navigation__list {
+  display: flex;
+  justify-content: space-between;
+
+  list-style-type: none;
+}
+
+.navigation__list a {
+  color: #ffffff;
+}

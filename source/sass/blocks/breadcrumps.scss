@@ -1,0 +1,17 @@
+.breadcrumps {
+  display: flex;
+  justify-content: flex-start;
+
+  color: #69a54d;
+
+  list-style-type: none;
+}
+
+.breadcrumps a {
+  color: #69a54d;
+  text-decoration: none;
+}
+
+.breadcrumps__item--active a {
+  color: #cacaca;
+}

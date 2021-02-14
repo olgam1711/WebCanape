@@ -1,0 +1,25 @@
+.footer {
+  display: block;
+}
+
+.footer__list {
+  list-style-type: none;
+}
+
+.footer__list a {
+  color: #222222;
+  text-decoration: none;
+}
+
+.footer__menu,
+.footer__location,
+.footer__rights {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__menu,
+.footer__location {
+  background-color: rgba(232,222,186,0.28);
+}
+

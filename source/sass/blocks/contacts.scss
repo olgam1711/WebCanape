@@ -1,0 +1,31 @@
+.contacts {
+  display: block;
+  text-align: center;
+
+  color: #ffffff;
+
+  background-color: #7f9d64;
+}
+
+.contacts input,
+.contacts textarea {
+  color: #ffffff;
+
+  background-color: #7f9d64;
+}
+
+.contacts input,
+.contacts textarea {
+  border: 1px solid #ffffff;
+}
+
+.contacts input::placeholder,
+.contacts textarea::placeholder {
+  color: #ffffff;
+}
+
+.contacts button {
+  color: #7f9d64;
+
+  background-color: #ffffff;
+}
