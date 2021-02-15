@@ -25,17 +25,19 @@
         <p>пн-пт 8:00-17:00, перерыв 12:00-13:00, сб-вс: выходной</p>
       </div>
 
-      <a class="header__green" href="mailto:sale@semm.ru">sale@semm.ru</a>
+      <a class="header__green header__green--mail" href="mailto:sale@semm.ru">
+        sale@semm.ru
+      </a>
 
       <div class="header__settings">
         <div class="header__lang">
-          <a>Ru</a>
+          <a class="header__ru">Ru</a>
 
           <a class="header__green">En</a>
 
           <p>Выбор языка</p>
 
-          <img src="img/menu-down.svg" width="20" height="20" alt="открыть меню выбора языка">
+          <img src="img/menu-down.svg" width="9" height="9" alt="открыть меню выбора языка">
         </div>
 
         <p>8 (86138) 6-34-03, 6-34-06</p>
@@ -48,6 +50,7 @@
           <li class="nav-list__item">
             <a href="catalog.html">
               <img src="img/dots_catalog.svg" width="20" height="5" alt="">
+
               Каталог продукции
             </a>
           </li>
@@ -80,13 +83,15 @@
           <a href="index.html">Главная</a>
         </li>
 
-        <li class="breadcrumps__item">→</li>
+        <li class="breadcrumps__item breadcrumps__item--arrow">
+          →
+        </li>
 
         <li class="breadcrumps__item">
           <a>Каталог продукции</a>
         </li>
 
-        <li class="breadcrumps__item">
+        <li class="breadcrumps__item breadcrumps__item--arrow">
           →
         </li>
 
@@ -94,7 +99,7 @@
           <a>Элеваторное оборудование</a>
         </li>
 
-        <li>→</li>
+        <li class="breadcrumps__item breadcrumps__item--arrow">→</li>
 
         <li class="breadcrumps__item breadcrumps__item--active">
           <a href="catalog.html">Автомобилеразгрузчики</a>
@@ -189,7 +194,7 @@
             <input type="email" name="mail" placeholder="E-mail">
           </div>
 
-          <textarea name="text" cols="85" rows="10" placeholder="Ваш запрос"></textarea>
+          <textarea name="text" cols="108" rows="10" placeholder="Ваш запрос"></textarea>
 
           <p>
             Нажимая на кнопку вы даете согласие на обработку персональных данных
@@ -204,7 +209,7 @@
 
     <footer class="footer">
       <div class="footer__container container">
-        <div class="footer__menu footer-menu">
+        <section class="footer__menu footer-menu">
           <img src="img/logo.png" width="132" height="116" alt="перейти на главную страницу">
 
           <ul class="footer__list footer-menu">
@@ -284,38 +289,38 @@
               <a>Неликвиды</a>
             </li>
           </ul>
-        </div>
+        </section>
 
-        <div class="footer__location">
-          <div>
+        <ul class="footer__location location">
+          <li class="location__item">
             <img src="img/location_icon.svg" width="20" height="28" alt="">
 
             <p>Адрес: 352382, Краснодарский край, г. Кропоткин, ул. Пушкина, 79</p>
-          </div>
+          </li>
 
-          <div>
+          <li class="location__item">
             <img src="img/phone_icon.svg" width="20" height="28" alt="">
 
             <p>
               Тел./Факс: 8(86138) 6-34-03, 6-34-06
               E-mail: sale@semm.ru
             </p>
-          </div>
+          </li>
 
-          <div>
+          <li class="location__item">
             <img src="img/clock_icon.svg" width="20" height="28" alt="">
 
             <p>Режим работы: пн-пт 8:00-17:00, перерыв 12:00-13:00, сб-вс: выходной</p>
-          </div>
-        </div>
+          </li>
+        </ul>
 
-        <div class="footer__rights">
+        <section class="footer__rights">
           <p>© АО "Элеватормельмаш" 2014 г.</p>
 
           <p>Разработка и маркетинг - WebCanape</p>
 
           <p>Политика конфиденциальности</p>
-        </div>
+        </section>
       </div>
     </footer>
   </body>
