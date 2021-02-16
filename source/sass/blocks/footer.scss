@@ -11,31 +11,9 @@
   text-decoration: none;
 }
 
-.footer__menu,
-.footer__location,
-.footer__rights {
+.footer__block {
   display: flex;
   justify-content: space-between;
-}
 
-.footer__menu,
-.footer__location {
   background-color: rgba(232, 222, 186, 0.28);
-
-  border-bottom: 1px solid #e4e4e4;
-}
-
-.footer__menu {
-  padding-top: 62px;
-  padding-bottom: 62px;
-}
-
-.footer__location {
-  padding-top: 42px;
-  padding-bottom: 42px;
-}
-
-.footer__rights {
-  padding-top: 30px;
-  padding-bottom: 30px;
 }
