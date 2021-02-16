@@ -1,0 +1,23 @@
+.pages__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding-left: 0;
+  margin-right: 10px;
+  margin-left: 10px;
+
+  font-size: 18px;
+  list-style-type: none;
+}
+
+.pages__list li {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.pages__list li:nth-child(2) {
+  padding: 5px 10px;
+
+  background-color: #e8deba;
+}
