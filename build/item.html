@@ -87,7 +87,7 @@
         </li>
 
         <li class="breadcrumps__item">
-          <a>Каталог продукции</a>
+          <a href="catalog.html">Каталог продукции</a>
         </li>
 
         <li class="breadcrumps__item breadcrumps__item--arrow">
@@ -109,22 +109,24 @@
 
       <section class="main__goods goods container">
 
-      <h1>Автомобилеразгрузчик У15-УРАГ</h1>
+        <h1>Автомобилеразгрузчик У15-УРАГ</h1>
 
-        <div class="goods__album">
-          <img src="img/urag-open.png" width="409" height="409" alt="">
-
+        <div class="goods__album goods-album">
           <div>
-            <img src="img/urag-mini-1.png" width="85" height="85" alt="">
+            <img src="img/urag-open.png" width="409" height="409" alt="">
 
-            <img src="img/urag-mini-2.png" width="85" height="85" alt="">
+            <div class="goods-album__mini">
+              <img src="img/urag-mini-1.png" width="85" height="85" alt="">
 
-            <img src="img/urag-mini-3.png" width="85" height="85" alt="">
+              <img src="img/urag-mini-2.png" width="85" height="85" alt="">
 
-            <img src="img/urag-mini-4.png" width="85" height="85" alt="">
+              <img src="img/urag-mini-3.png" width="85" height="85" alt="">
+
+              <img src="img/urag-mini-4.png" width="85" height="85" alt="">
+            </div>
           </div>
 
-          <div class="goods__description">
+          <div class="goods__description goods-desc">
             <p>
               Разгрузчик автомобилей У15-УРАГ предназначен для разгрузки зерна через открытый задний борт из одиночных автомобилей и седельных тягачей с полуприцепами и разгрузки через открытый боковой борт одиночных автомобилей и прицепов без расцепки прицепов с автомобилями.
             </p>
@@ -137,14 +139,14 @@
               Разгрузчик автомобилей изготовлен в климатическом исполнении "У" категории 1 по ГОСТ 15150 - для работы на открытом воздухе в умеренном климате.
             </p>
 
-            <p>
-              Цена от 580 000 руб.
+            <p class="goods-desc__price">
+              Цена от <span>580 000</span> руб.
             </p>
 
             <div class="goods__buy">
-              <a href="">Заказать</a>
+              <a>Заказать</a>
 
-              <a href="">Скачать наш каталог</a>
+              <a>Скачать наш каталог</a>
             </div>
           </div>
         </div>
@@ -152,127 +154,129 @@
 
       <section class="main__characteristics characteristics container">
         <div class="characteristics__tabs tab">
-          <button class="tablinks" onclick="openTab(event, 'Технические характеристики')">Технические характеристики</button>
-          <button class="tablinks" onclick="openTab(event, 'Принцип действия')">Принцип действия</button>
-          <button class="tablinks" onclick="openTab(event, 'Преимущества')">Преимущества</button>
-          <button class="tablinks" onclick="openTab(event, 'Сертификаты')">Сертификаты</button>
-          <button class="tablinks" onclick="openTab(event, 'Видео')">Видео</button>
+          <button class="tab__tablinks" onclick="openTab(event, 'Технические характеристики')">Технические характеристики</button>
+          <button class="tab__tablinks" onclick="openTab(event, 'Принцип действия')">Принцип действия</button>
+          <button class="tab__tablinks" onclick="openTab(event, 'Преимущества')">Преимущества</button>
+          <button class="tab__tablinks" onclick="openTab(event, 'Сертификаты')">Сертификаты</button>
+          <button class="tab__tablinks" onclick="openTab(event, 'Видео')">Видео</button>
         </div>
 
-        <table class="characteristics__table">
-          <tr>
-            <th>№</th>
-            <th>Наименование технической характеристики</th>
-            <th>Ед.изм</th>
-            <th>У15-УРАГ</th>
-            <th>У15-УРАГ-У</th>
-            <th>У15-УРАГ-У-17,3/6,4</th>
-            <th>У15-УРАГ-У/9</th>
-            <th>У15-УРАГ-У-17,3/9</th>
-            <th>У15-УРАГ без бок.</th>
-            <th>У15-УРАГ-У без бок.</th>
-            <th>У15-УРАГ-У-17,3 без бок.</th>
-          </tr>
+        <div class="characteristics__border">
+          <table class="characteristics__table">
+            <tr>
+              <th>№</th>
+              <th>Наименование технической характеристики</th>
+              <th>Ед.изм</th>
+              <th>У15-УРАГ</th>
+              <th>У15-УРАГ-У</th>
+              <th>У15-УРАГ-У-17,3/6,4</th>
+              <th>У15-УРАГ-У/9</th>
+              <th>У15-УРАГ-У-17,3/9</th>
+              <th>У15-УРАГ без бок.</th>
+              <th>У15-УРАГ-У без бок.</th>
+              <th>У15-УРАГ-У-17,3 без бок.</th>
+            </tr>
 
-          <tr>
-            <td>1</td>
-            <td>Производительность техническая max.</td>
-            <td>т/ч</td>
-            <td>256</td>
-            <td>330</td>
-            <td>330</td>
-            <td>330</td>
-            <td>350</td>
-            <td>250</td>
-            <td>300</td>
-            <td>300</td>
-          </tr>
+            <tr>
+              <td>1</td>
+              <td>Производительность техническая max.</td>
+              <td>т/ч</td>
+              <td>256</td>
+              <td>330</td>
+              <td>330</td>
+              <td>330</td>
+              <td>350</td>
+              <td>250</td>
+              <td>300</td>
+              <td>300</td>
+            </tr>
 
-          <tr>
-            <td rowspan="3">2</td>
-            <td>Грузоподъемность, не более (в том числе):</td>
-            <td rowspan="3">т</td>
-            <td>55</td>
-            <td>70</td>
-            <td>76</td>
-            <td>82</td>
-            <td>86</td>
-            <td>35</td>
-            <td>50</td>
-            <td>56</td>
-          </tr>
+            <tr>
+              <td rowspan="3">2</td>
+              <td>Грузоподъемность, не более (в том числе):</td>
+              <td rowspan="3">т</td>
+              <td>55</td>
+              <td>70</td>
+              <td>76</td>
+              <td>82</td>
+              <td>86</td>
+              <td>35</td>
+              <td>50</td>
+              <td>56</td>
+            </tr>
 
-          <tr>
-            <td>большой платформы</td>
-            <td>35</td>
-            <td>50</td>
-            <td>56</td>
-            <td>50</td>
-            <td>56</td>
-            <td>35</td>
-            <td>50</td>
-            <td>56</td>
-          </tr>
+            <tr>
+              <td>большой платформы</td>
+              <td>35</td>
+              <td>50</td>
+              <td>56</td>
+              <td>50</td>
+              <td>56</td>
+              <td>35</td>
+              <td>50</td>
+              <td>56</td>
+            </tr>
 
-          <tr>
-            <td>боковой платформы</td>
-            <td>20</td>
-            <td>20</td>
-            <td>20</td>
-            <td>32</td>
-            <td>30</td>
-            <td>-</td>
-            <td>-</td>
-            <td>-</td>
-          </tr>
+            <tr>
+              <td>боковой платформы</td>
+              <td>20</td>
+              <td>20</td>
+              <td>20</td>
+              <td>32</td>
+              <td>30</td>
+              <td>-</td>
+              <td>-</td>
+              <td>-</td>
+            </tr>
 
-          <tr>
-            <td rowspan="3">3</td>
-            <td>Длина платформ установочная</td>
-            <td rowspan="3">мм</td>
-            <td colspan="8"></td>
-          </tr>
+            <tr>
+              <td rowspan="3">3</td>
+              <td>Длина платформ установочная</td>
+              <td rowspan="3">мм</td>
+              <td colspan="8"></td>
+            </tr>
 
-          <tr>
-            <td>платформы большой</td>
-            <td>55</td>
-            <td>70</td>
-            <td>76</td>
-            <td>82</td>
-            <td>86</td>
-            <td>35</td>
-            <td>50</td>
-            <td>56</td>
-          </tr>
+            <tr>
+              <td>платформы большой</td>
+              <td>55</td>
+              <td>70</td>
+              <td>76</td>
+              <td>82</td>
+              <td>86</td>
+              <td>35</td>
+              <td>50</td>
+              <td>56</td>
+            </tr>
 
-          <tr>
-            <td>платформы большой</td>
-            <td>55</td>
-            <td>70</td>
-            <td>76</td>
-            <td>82</td>
-            <td>86</td>
-            <td>35</td>
-            <td>50</td>
-            <td>56</td>
-          </tr>
-        </table>
+            <tr>
+              <td>платформы большой</td>
+              <td>55</td>
+              <td>70</td>
+              <td>76</td>
+              <td>82</td>
+              <td>86</td>
+              <td>35</td>
+              <td>50</td>
+              <td>56</td>
+            </tr>
+          </table>
 
-        <h3>Состав изделия и комплект поставки</h3>
+          <h3>Состав изделия и комплект поставки</h3>
 
-        <ul class="characteristics__list">
-          <li>платформа большая - 1 шт,</li>
-          <li>платформа боковая - 1 шт,</li>
-          <li>гидросистема - 1 шт,</li>
-          <li>решетка левая - 1 шт,</li>
-          <li>решетка правая - 1 шт,</li>
-          <li>стойка - 2 шт,</li>
-          <li>система управления - 1 шт.</li>
-        </ul>
+          <ul class="characteristics__list">
+            <li>платформа большая - 1 шт,</li>
+            <li>платформа боковая - 1 шт,</li>
+            <li>гидросистема - 1 шт,</li>
+            <li>решетка левая - 1 шт,</li>
+            <li>решетка правая - 1 шт,</li>
+            <li>стойка - 2 шт,</li>
+            <li>система управления - 1 шт.</li>
+          </ul>
 
-        <p>
-          Разгрузчик поставляется заказчику комплектно, разобранным на составные части. Отдельно комплектующие изделия, сборочные единицы и детали упаковываются в дощатые ящики. Металлоконструкции поставляются без упаковки.
-        </p>
+          <p>
+            Разгрузчик поставляется заказчику комплектно, разобранным на составные части. Отдельно комплектующие изделия, сборочные единицы и детали упаковываются в дощатые ящики. Металлоконструкции поставляются без упаковки.
+          </p>
+        </div>
       </section>
 
       <section class="main__contacts contacts">

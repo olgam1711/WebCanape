@@ -1,0 +1,49 @@
+.characteristics {
+  padding-bottom: 112px;
+}
+
+.characteristics h3 {
+  margin-top: 52px;
+  margin-bottom: 30px;
+}
+
+.characteristics__list {
+  padding-left: 0;
+
+  list-style-type: none;
+}
+
+.characteristics p {
+  margin-top: 17px;
+  margin-bottom: 30px;
+}
+
+.characteristics__border {
+  padding: 26px;
+
+  border: 1px solid #cdbd84;
+  box-sizing: border-box;
+}
+
+.characteristics__table {
+  border-collapse: collapse;
+  border: 2px solid white;
+}
+
+.characteristics__table td:nth-child(2) {
+  max-width: 270px;
+
+  text-align: left;
+}
+
+.characteristics__table th,
+.characteristics__table td {
+  max-width: 100px;
+  padding: 5px;
+
+  text-align: center;
+  font-size: 14px;
+  vertical-align: baseline;
+
+  border: 1px solid #dcdcdc;
+}
