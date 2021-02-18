@@ -1,3 +1,14 @@
+.nav-list {
+  display: flex;
+  justify-content: space-between;
+
+  padding-top: 19px;
+  padding-bottom: 19px;
+  padding-left: 0;
+
+  list-style-type: none;
+}
+
 .nav-list__item img {
   padding-right: 24px;
 }

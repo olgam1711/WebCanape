@@ -12,12 +12,8 @@
 .elevator-list li {
   position: relative;
 
-  margin-right: 30px;
   margin-bottom: 30px;
-}
-
-.elevator-list li:nth-child(4) {
-  margin-right: 0;
+  min-width: 400px;
 }
 
 .elevator-list__link {
