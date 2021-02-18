@@ -1,0 +1,17 @@
+.agriculture-list {
+  display: flex;
+  justify-content: space-between;
+
+  padding-left: 0;
+
+  list-style-type: none;
+}
+
+.agriculture-list__item {
+  max-width: 250px;
+}
+
+.agriculture-list__item p:first-child {
+  font-size: 80px;
+  color: #cdbd84;
+}
