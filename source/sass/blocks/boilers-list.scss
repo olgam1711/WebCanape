@@ -6,3 +6,58 @@
 
   list-style-type: none;
 }
+
+.boilers-list li {
+  position: relative;
+}
+
+.boilers-list__link {
+  position: absolute;
+  content: "";
+  top: 20px;
+  left: 20px;
+
+  display: block;
+  width: 39px;
+  height: 62px;
+
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: bold;
+
+  z-index: 3;
+}
+
+.boilers-list__arrow {
+  position: absolute;
+  content: "";
+  bottom: 20px;
+  left: 20px;
+
+  display: block;
+  width: 39px;
+  height: 21px;
+
+  color: #ffffff;
+
+  z-index: 3;
+}
+
+.boilers-list__bg {
+  position: relative;
+}
+
+.boilers-list__bg::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.39);
+
+  width: 100%;
+  height: 100%;
+
+  z-index: 2;
+}

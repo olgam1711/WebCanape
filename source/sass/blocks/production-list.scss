@@ -1,8 +1,43 @@
 .production-list {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 
   padding-left: 0;
 
   list-style-type: none;
+}
+
+.production-list h3 {
+  color: #69a54d;
+  font-size: 22px;
+}
+
+.production-list li {
+  position: relative;
+
+  max-width: 50%;
+}
+
+.production-list__text {
+  max-width: 564px;
+}
+
+.production-list__pic {
+  min-width: 700px;
+}
+
+.production-list__number {
+  position: absolute;
+  content: "";
+  bottom: 110px;
+  right: 38px;
+
+  display: block;
+  width: 77px;
+  height: 88px;
+
+  color: #ffffff;
+  opacity: 0.7;
+  font-size: 72px;
 }

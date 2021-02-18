@@ -6,3 +6,23 @@
 
   list-style-type: none;
 }
+
+.news-list li {
+  width: 33%;
+}
+
+.news-list h3 {
+  max-width: 375px;
+
+  font-size: 22px;
+  color: #69a54d;
+}
+
+.news-list__date {
+  font-size: 14px;
+  color: #cac1a0;
+}
+
+.news-list__desc {
+  max-width: 475px;
+}
