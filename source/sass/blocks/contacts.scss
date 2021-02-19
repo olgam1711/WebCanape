@@ -17,13 +17,17 @@
 }
 
 .contacts input {
-  min-width: 410px;
+  width: 30%;
   margin-bottom: 30px;
   margin-right: 30px;
 }
 
 .contacts input:last-child {
   margin-right: 0;
+}
+
+.contacts textarea {
+  width: 98%;
 }
 
 .contacts input,
