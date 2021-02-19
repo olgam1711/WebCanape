@@ -70,3 +70,19 @@
   display: block;
   min-height: 100%;
 }
+
+@media (min-width: 768px) and (max-width: 1919px) {
+  .elevator-list li {
+    margin-bottom: 20px;
+    min-width: 200px;
+  }
+
+  .elevator-list__bg img {
+    max-width: 250px;
+    max-height: 200px;
+  }
+
+  .elevator-list__link {
+    font-size: 15px;
+  }
+}

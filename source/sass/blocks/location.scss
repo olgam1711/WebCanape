@@ -6,3 +6,17 @@
 .location__item {
   max-width: 280px;
 }
+
+@media (min-width: 768px) and (max-width: 1919px) {
+  .location__item {
+    max-width: 270px;
+  }
+
+  .location__item:last-child {
+    max-width: 100%;
+  }
+
+  .location__item p {
+    font-size: 14px;
+  }
+}

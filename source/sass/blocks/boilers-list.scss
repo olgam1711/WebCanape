@@ -64,3 +64,14 @@
   display: block;
   min-height: 100%;
 }
+
+@media (min-width: 768px) and (max-width: 1919px) {
+  .boilers-list__bg img {
+    max-width: 370px;
+    min-height: 150px;
+  }
+
+  .boilers-list__link {
+    font-size: 16px;
+  }
+}

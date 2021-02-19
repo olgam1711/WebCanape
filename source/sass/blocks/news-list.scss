@@ -22,3 +22,23 @@
 .news-list__desc {
   max-width: 475px;
 }
+
+@media (min-width: 768px) and (max-width: 1919px) {
+  .news-list h3 {
+    max-width: 340px;
+
+    font-size: 18px;
+  }
+
+  .news-list__desc {
+    font-size: 14px;
+  }
+
+  .news-list li:nth-child(3) {
+    display: none;
+  }
+
+  .news-list img {
+    max-width: 375px;
+  }
+}

@@ -41,3 +41,25 @@
   opacity: 0.7;
   font-size: 72px;
 }
+
+@media (min-width: 768px) and (max-width: 1919px) {
+  .production-list__pic {
+    max-width: 375px;
+    min-width: 300px;
+  }
+
+  .production-list h3 {
+    font-size: 18px;
+  }
+
+  .production-list__text {
+    font-size: 14px;
+  }
+
+  .production-list__number {
+    bottom: 145px;
+    right: 11px;
+
+    font-size: 48px;
+  }
+}

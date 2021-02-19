@@ -7,7 +7,7 @@
   list-style-type: none;
 }
 
-.agriculture-list__item {
+.agriculture-list__item p:nth-child(2) {
   max-width: 235px;
 }
 
@@ -18,4 +18,15 @@
 .agriculture-list__item p:first-child {
   font-size: 80px;
   color: #cdbd84;
+}
+
+@media (min-width: 768px) and (max-width: 1919px) {
+  .agriculture-list {
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+
+  .agriculture-list__item {
+    min-width: 33%;
+  }
 }
