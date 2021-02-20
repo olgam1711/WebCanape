@@ -9,7 +9,11 @@
 
 @media (min-width: 768px) and (max-width: 1919px) {
   .location__item {
-    max-width: 270px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    max-width: 305px;
   }
 
   .location__item:last-child {
@@ -17,6 +21,8 @@
   }
 
   .location__item p {
+    margin-left: 20px;
+
     font-size: 14px;
   }
 }
