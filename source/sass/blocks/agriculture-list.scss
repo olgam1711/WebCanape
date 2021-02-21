@@ -29,4 +29,8 @@
   .agriculture-list__item {
     min-width: 33%;
   }
+
+  .agriculture-list__item p:first-child {
+    margin-bottom: 5px;
+  }
 }
