@@ -63,3 +63,9 @@
     font-size: 48px;
   }
 }
+
+@media (min-width: 340px) and (max-width: 767px) {
+  .production-list {
+    display: block;
+  }
+}

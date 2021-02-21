@@ -34,3 +34,29 @@
     margin-bottom: 5px;
   }
 }
+
+@media (min-width: 340px) and (max-width: 767px) {
+  .agriculture-list {
+    display: block;
+
+    text-align: center;
+  }
+
+  .agriculture-list__item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .agriculture-list__item p:first-child {
+    font-size: 48px;
+    text-align: right;
+  }
+
+  .agriculture-list__item p:nth-child(2) {
+    max-width: 200px;
+
+    font-size: 14px;
+    text-align: left;
+  }
+}

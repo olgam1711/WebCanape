@@ -32,3 +32,18 @@
     width: 437px;
   }
 }
+
+@media (min-width: 340px) and (max-width: 767px) {
+  .slider p {
+    font-size: 48px;
+  }
+
+  .slider__decor {
+    width: 112px;
+  }
+
+  .slider__swing img {
+    width: 39px;
+    height: 21px;
+  }
+}

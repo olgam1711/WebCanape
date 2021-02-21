@@ -40,3 +40,18 @@
     line-height: 46px;
   }
 }
+
+@media (min-width: 340px) and (max-width: 767px) {
+  .main--index h1 {
+    margin: 80px auto 10px;
+
+    font-size: 25px;
+    line-height: 69px;
+  }
+
+  .main h2 {
+    font-size: 26px;
+    line-height: 31px;
+    text-align: center;
+  }
+}

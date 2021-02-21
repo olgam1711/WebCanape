@@ -40,3 +40,9 @@
     flex-wrap: wrap;
   }
 }
+
+@media (min-width: 340px) and (max-width: 767px) {
+  .footer__container {
+    display: block;
+  }
+}

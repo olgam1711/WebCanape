@@ -44,3 +44,9 @@
     max-width: 360px;
   }
 }
+
+@media (min-width: 340px) and (max-width: 767px) {
+  .news-list {
+    display: block;
+  }
+}
