@@ -46,7 +46,23 @@
 }
 
 @media (min-width: 340px) and (max-width: 767px) {
-  .news-list {
+  .news-list li {
+    display: none;
+  }
+
+  .news-list li:first-child {
     display: block;
+    min-width: 300px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .news-list img {
+    width: 320px;
+    height: 175px;
+  }
+
+  .news-list__desc {
+    font-size: 14px;
   }
 }

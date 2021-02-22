@@ -91,4 +91,15 @@
   .elevator-list {
     display: block;
   }
+
+  .elevator-list li {
+    min-width: 300px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  .elevator-list__bg img {
+    width: 320px;
+    height: 240px;
+  }
 }

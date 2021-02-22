@@ -44,6 +44,12 @@
   display: none;
 }
 
+.header__choose {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
 @media (min-width: 768px) and (max-width: 1919px) {
   .header__info p {
     max-width: 210px;
@@ -81,14 +87,8 @@
     text-align: right;
   }
 
-  .header__choose {
-    display: flex;
-    align-items: baseline;
-    justify-content: space-between;
-  }
-
   .header__choose p {
-    margin-right: 10px;
+    margin-right: 5px;
 
     font-size: 14px;
   }

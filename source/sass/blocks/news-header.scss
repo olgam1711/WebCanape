@@ -3,3 +3,9 @@
   justify-content: space-between;
   align-items: center;
 }
+
+@media (min-width: 340px) and (max-width: 1919px) {
+  .news-header__arrows {
+    display: none;
+  }
+}
