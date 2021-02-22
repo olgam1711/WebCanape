@@ -42,6 +42,10 @@
 }
 
 @media (min-width: 340px) and (max-width: 767px) {
+  .main h1 {
+    font-size: 25px;
+  }
+
   .main--index h1 {
     margin: 80px auto 10px;
 

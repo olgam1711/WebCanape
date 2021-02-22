@@ -21,3 +21,10 @@
 
   background-color: #e8deba;
 }
+
+@media (min-width: 340px) and (max-width: 767px) {
+  .pages__list li {
+    margin-right: 5px;
+    margin-left: 5px;
+  }
+}

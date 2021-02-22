@@ -193,18 +193,21 @@
       </ul>
 
       <section class="main__contacts contacts">
-        <h2>Свяжитесь с нами</h2>
+        <h2 class="container">Свяжитесь с нами</h2>
 
-        <form method="post">
-          <div>
-            <input type="text" name="feedback-name" placeholder="ФИО">
+        <form class="container" method="post">
+          <div class="contacts__tablet-form">
+            <div class="contacts__inputs">
+              <input type="text" name="feedback-name" placeholder="ФИО">
 
-            <input type="tel" name="tel" placeholder="Телефон">
+              <input type="tel" name="tel" placeholder="Телефон">
 
-            <input type="email" name="mail" placeholder="E-mail">
+              <input type="email" name="mail" placeholder="E-mail">
+            </div>
+
+            <textarea name="text" cols="172" rows="15" placeholder="Ваш запрос"></textarea>
           </div>
 
-          <textarea name="text" cols="172" rows="15" placeholder="Ваш запрос"></textarea>
 
           <p>
             Нажимая на кнопку вы даете согласие на обработку персональных данных

@@ -27,7 +27,7 @@
 }
 
 .contacts textarea {
-  width: 98%;
+  width: 96%;
 }
 
 .contacts input,
@@ -71,6 +71,10 @@
   .contacts__tablet-form {
     display: flex;
     justify-content: space-between;
+  }
+
+  .contacts__inputs {
+    min-width: 40%;
   }
 
   .contacts input {

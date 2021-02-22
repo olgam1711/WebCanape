@@ -7,3 +7,9 @@
 
   list-style-type: none;
 }
+
+@media (min-width: 340px) and (max-width: 767px) {
+  .pagination {
+    flex-wrap: wrap;
+  }
+}
