@@ -30,7 +30,7 @@
 .production-list__number {
   position: absolute;
   content: "";
-  top: 0;
+  top: 20%;
   right: 38px;
 
   display: block;
@@ -45,7 +45,7 @@
 
 @media (min-width: 768px) and (max-width: 1919px) {
   .production-list__pic {
-    max-width: 360px;
+    max-width: 97%;
     min-width: 300px;
   }
 
@@ -72,21 +72,23 @@
   .production-list li {
     max-width: 100%;
     min-width: 300px;
-    margin-right: auto;
-    margin-left: auto;
+    margin-right: 10px;
+    margin-left: 10px;
   }
 
   .production-list__pic {
-    width: 320px;
-    height: 114px;
+    width: 100%;
+    min-width: 80%;
+    min-height: 80%;
   }
 
   .production-list__number {
-    bottom: 145px;
     right: 11px;
   }
 
   .production-list__text {
+    max-width: 90%;
+
     font-size: 14px;
   }
 }

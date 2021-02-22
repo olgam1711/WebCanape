@@ -38,8 +38,6 @@
 @media (min-width: 340px) and (max-width: 767px) {
   .agriculture-list {
     display: block;
-
-    text-align: center;
   }
 
   .agriculture-list__item {
@@ -55,8 +53,8 @@
   }
 
   .agriculture-list__item p:nth-child(2) {
-    max-width: 190px;
-    margin-left: 10px;
+    max-width: 180px;
+    margin-left: 20px;
 
     font-size: 14px;
     text-align: left;

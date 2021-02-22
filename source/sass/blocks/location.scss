@@ -26,3 +26,15 @@
     font-size: 14px;
   }
 }
+
+@media (min-width: 340px) and (max-width: 767px) {
+  .location {
+    text-align: center;
+    font-size: 14px;
+  }
+
+  .location__item {
+    margin-right: auto;
+    margin-left: auto;
+  }
+}

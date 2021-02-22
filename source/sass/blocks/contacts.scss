@@ -17,7 +17,7 @@
 }
 
 .contacts input {
-  width: 30%;
+  width: 29%;
   margin-bottom: 30px;
   margin-right: 30px;
 }
@@ -32,9 +32,10 @@
 
 .contacts input,
 .contacts textarea {
-  padding: 13px 19px;
+  padding: 15px 22px;
 
   color: #ffffff;
+  opacity: 0.7;
 
   background-color: #7f9d64;
   border: 1px solid #ffffff;
@@ -47,14 +48,22 @@
 
 .contacts button {
   padding: 10px 45px;
+  margin-top: 57px;
 
   color: #7f9d64;
+  font-weight: bold;
 
   background-color: #ffffff;
   border: none;
+  border-radius: 3px;
 }
 
 @media (min-width: 768px) and (max-width: 1919px) {
+  .contacts {
+    padding-top: 72px;
+    padding-bottom: 80px;
+  }
+
   .contacts h2 {
     font-size: 30px;
   }
@@ -70,12 +79,41 @@
   }
 
   .contacts textarea {
-    width: 50%;
-    height: 170px;
+    width: 46%;
+    height: 177px;
   }
 
   .contacts button {
     margin-top: 35px;
     margin-bottom: 90px;
+  }
+}
+
+@media (min-width: 340px) and (max-width: 767px) {
+  .contacts {
+    padding-bottom: 72px;
+    padding-top: 51px;
+    margin-top: 58px;
+  }
+
+  .contacts h2 {
+    font-size: 24px;
+  }
+
+  .contacts input,
+  .contacts textarea {
+    width: 84%;
+    margin-right: 0;
+  }
+
+  .contacts textarea {
+    height: 100px;
+  }
+
+  .contacts p {
+    margin-top: 20px;
+    margin-bottom: 38px;
+
+    font-size: 14px;
   }
 }

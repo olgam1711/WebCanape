@@ -61,13 +61,19 @@
   }
 }
 
-@media (min-width: 340px) and (max-width: 768px) {
+@media (min-width: 340px) and (max-width: 767px) {
   .header__info p {
     display: none;
   }
 
   .header__phone {
     display: none;
+  }
+
+  .header__lang {
+    display: block;
+
+    text-align: right;
   }
 }
 
@@ -79,12 +85,6 @@
 
   .header__green--mail {
     display: none;
-  }
-
-  .header__lang {
-    display: block;
-
-    text-align: right;
   }
 
   .header__choose p {

@@ -14,6 +14,8 @@
 
   margin-bottom: 30px;
   min-width: 400px;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
 .elevator-list__link {
@@ -75,6 +77,8 @@
   .elevator-list li {
     margin-bottom: 20px;
     min-width: 200px;
+    margin-left: 2px;
+    margin-right: 2px;
   }
 
   .elevator-list__bg img {
@@ -94,12 +98,13 @@
 
   .elevator-list li {
     min-width: 300px;
-    margin-right: auto;
-    margin-left: auto;
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 20px;
   }
 
   .elevator-list__bg img {
-    width: 320px;
-    height: 240px;
+    width: 100%;
+    min-height: 80%;
   }
 }
