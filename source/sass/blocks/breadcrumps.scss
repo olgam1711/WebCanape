@@ -27,3 +27,9 @@
 .breadcrumps__item--arrow {
   color: #cacaca;
 }
+
+@media (min-width: 340px) and (max-width: 767px) {
+  .breadcrumps {
+    flex-wrap: wrap;
+  }
+}
